@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function Navbar() {
     return (
-        <div class="bg-purple-900 p-5 text-white">
+        <div class="bg-midnight p-5 text-white">
             <nav class="container mx-auto flex justify-between">
                 <div>
                     <Link to="/" class="text-xl"><h1>Rohan Mehta</h1></Link>
