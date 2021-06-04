@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import FeaturedProject from "../components/Featured-Project"
 import { StaticImage } from "gatsby-plugin-image"
+import Card from "../components/Card"
 
 export default function Home() {
   return (
@@ -29,11 +30,15 @@ export default function Home() {
         </div>
         <div className="w-1/4"></div>
       </div>
-      <div className="mt-5 container ">
+      <div className="mt-5 container">
         <h2 className="p-7 text-4xl text-slime font-bold">Featured Projects</h2>
         
       </div>
-      <FeaturedProject bgColor="slime" textColor="black" />
+      <div className="md:flex md:justify-between container p-5">
+        <Card className="mx-5"/>
+        <Card className="mx-5"/>
+        <Card className="mx-5"/>
+      </div>      
       
     </Layout>
   )

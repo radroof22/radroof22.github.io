@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "slime": "#E2EAC2",
+        "mint": "#B2C9A5",
         "midnight": "#413C58",
         "night": "#5B5578"
       }
