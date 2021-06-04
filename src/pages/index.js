@@ -7,13 +7,13 @@ import Card from "../components/Card"
 export default function Home() {
   return (
     <Layout>
-      <div className="md:flex md:justify-between container p-7 bg-night text-white mb-5">
+      <div className="md:flex md:justify-between container p-7 bg-night text-white mb-5 w-full">
         <div className="w-3/4">
           <h1 className="text-5xl text-slime my-5 mb-10">Hi <span role="img" aria-label="hi emoji">👋</span> I am <span className="font-bold text-white">Rohan</span></h1>
           <h2 className="text-4xl text-slime italic mb-20">Student, Developer, Innovator</h2>
           <div className="md:flex my-5">
-            <button className="bg-slime hover:bg-slime-200 text-night py-2 px-4 mr-5 rounded">About Me</button>
-            <button className="bg-night hover:bg-night-200 text-slime py-2 px-4 mr-10 rounded border border-solid border-slime">Featured Projects</button>
+            <button className="bg-slime hover:bg-mint text-gray-900 py-2 px-4 mr-5 rounded">About Me</button>
+            <button className="bg-night hover:bg-midnight text-slime py-2 px-4 mr-10 rounded border border-solid border-slime">Featured Projects</button>
           </div>
         </div>
         <div className="flex flex-wrap w-1/4 content-center">
@@ -34,10 +34,10 @@ export default function Home() {
         <h2 className="p-7 text-4xl text-slime font-bold">Featured Projects</h2>
         
       </div>
-      <div className="md:flex md:justify-between container p-5">
-        <Card className="mx-5"/>
-        <Card className="mx-5"/>
-        <Card className="mx-5"/>
+      <div className="md:flex md:justify-around container p-5">
+        <Card />
+        <Card/>
+        <Card />
       </div>      
       
     </Layout>
