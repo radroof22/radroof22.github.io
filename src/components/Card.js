@@ -4,7 +4,7 @@ import React from 'react'
 export default function Card() {
     return (
 
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slime">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slime hover:bg-mint">
       <StaticImage className="w-full" src="https://user-images.githubusercontent.com/23004551/119425305-1e756c80-bcd5-11eb-86af-e4d66b0dcda7.png" alt="Self-Driving Car" />
       <div className="px-6 py-4">
         <div className="text-gray-900 font-bold text-xl mb-2">Mountain</div>
