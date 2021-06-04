@@ -5,7 +5,7 @@ export default function Layout({children}) {
     return (
         <div>
             <Navbar />
-            <div class="bg-night text-white">
+            <div className="bg-night text-white">
                 {children}
             </div>
         </div>

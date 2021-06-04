@@ -1,21 +1,22 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import FeaturedProject from "../components/Featured-Project"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Home() {
   return (
     <Layout>
-      <div className="grid grid-flow-col auto-cols-auto container p-7 bg-night text-white mb-5">
+      <div className="md:flex md:flex-row align-end container p-7 bg-night text-white mb-5">
         <div>
           <h1 className="text-5xl text-slime my-5">Hi <span role="img" aria-label="hi emoji">👋</span> I am <span className="font-bold text-white">Rohan</span></h1>
           <h2 className="text-4xl text-slime italic mb-10">Student, Developer, Innovator</h2>
-          <div className="flex justify-evenly my-5">
+          <div className="md:flex my-5">
             <button className="bg-slime hover:bg-slime-200 text-night py-2 px-4 mr-5 rounded">About Me</button>
             <button className="bg-night hover:bg-night-200 text-slime py-2 px-4 mr-10 rounded border border-solid border-slime">Featured Projects</button>
           </div>
         </div>
-        <div className="container p-5">
-          <img src="../images/me.jpg" alt="Picture of Me"/>
+        <div className="container ml-5">
+          <StaticImage className="rounded-3xl" src="../images/me.jpg" alt="A dinosaur" width={300} heigh={400}/>
         </div>
       </div>
       
