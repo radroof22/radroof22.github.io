@@ -37,7 +37,7 @@ export default function Home() {
       </div>
       <div className="md:flex md:justify-around container p-5">
         {featuredProjects.map((val, i) => 
-          <Card image={val.image} key={i} overview={val.overview} tags={val.tags} title={val.title}/>
+          <Card image={val.image} key={i} overview={val.overview} tags={val.tags} title={val.title} link={val.link}/>
         )}
       </div>      
       
