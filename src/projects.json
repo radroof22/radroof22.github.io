@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Mostlikely.to",
+        "overview": "This game was created to replicate the technology base of 'Jack in the Box Partypack' and 'Kahoot', livestreaming, interactive games amongs member groups. Instead of quiz questions or deeply interactive games like Kahoot and 'Jack', respectively, Mostlikely.to is a simple game of allowing users to create their own questions and vote on which members of their lobby are most likely to do it. The project uses Socket.io web sockets to have live communication between the users and the server hosting the game and lobby. The frontend is then rendered using Vue.js to handle state management on the frontend so no user data is confused or lost for the client.",
+        "category": "web-development",
+        "tags": [ 
+            {"name": "websockets"},
+            {"name": "vue.js" },
+            {"name": "web-dev"}
+        ],
+        "link": "https://github.com/radroof22/Mostlikely.to"
+    },
+    {
+        "title": "Blockchain Drug Supply Chain",
+        "overview": "There were two main problems that this project hoped to address: temperature tracking and supply chain monitoring. The temperature tracking works by having the Raspberry Pi send updates, using its temperature sensor, to the blockchain to create a auditable record of the drug and to ensure it did not reach unbearable temperatures that would ruin the substance. Additionally, the supply chain monitoring works via RFID tags which, when they scan the RFID tag. The mobile app will scan the product and send a message to the blockchain updating its location accordingly to where it is currently",
+        "category": "web-development",
+        "tag": [
+            {"name": "robotics"},
+            {"name": "blockchain"},
+            {"name": "ethereum"},
+            {"name": "flutter"}
+        ],
+        "link": "https://github.com/radroof22/blockchain-drug-supply-chain"
+    },
+    {
+        "title": "Self-Driving Car",
+        "overview": "This project was created using a Tensorflow LSTM which would recieve images from the client robot and make predicition for which turns it should make. The pictures on the client were taken using OpenCV2 and would be sent over as raw pixels in the form of a real-time web socket.The model learned to drive through a paper track on the ground and passed the statistical analysis proof.",
+        "category": "machine-learning",
+        "tag": [
+            {"name": "robotics"},
+            {"name": "tensorflow"},
+            {"name": "computer-vision"},
+            {"name": "python"}
+        ],
+        "link": "https://github.com/radroof22/Self-Driving-Car"
+    },
+    {
+        "title": "Portfolio Management Policy Gradient",
+        "overview": "The goal of this project was to see how effective a reinforcement learning type training model would be for financial management. Normal models rely on linear regression and predictions of the next price of a stock. Instead, this project sought to determine if policy gradient, a type of reinforcement model, may be effective for portfolio management.",
+        "category": "machine-learning",
+        "tag": [
+            {"name": "finance"},
+            {"name": "pytorch"},
+            {"name": "numpy"},
+            {"name": "pandas"}
+        ],
+        "link": "https://github.com/radroof22/Portfolio-Management-Policy-Gradient"
+    },
+    {
+        "title": "PtAi",
+        "overview": "The inspiration for this project came out of the recent rise in tele-medicine and doctors appointments hosted over the internet. As such, I wanted to see if there was a way to bring physical therapy to the online world to help people at home get the most out of their workouts. Current products already exist that allow users to track their joint movements as they do a series as exercises, though these solutions are often expensive. Instead, a machine learning technique would allow the users to just need their phone to complete their assigned workouts and gain assistance from the model.",
+        "category": "machine-learning",
+        "tag": [
+            {"name": "tensorflow"},
+            {"name": "javascript"},
+            {"name": "computer-vision"}
+        ],
+        "link": "https://github.com/radroof22/PtAi"
+    }
+]
