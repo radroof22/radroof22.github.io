@@ -1,14 +1,15 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { Link } from "gatsby"
-import FeaturedProject from "../components/Featured-Project"
 import { StaticImage } from "gatsby-plugin-image"
 import Card from "../components/Card"
+import Projects from "../projects.json"
 
 export default function Home() {
+  let featuredProjects = Projects.filter(item => item.featured);
   return (
     <Layout>
-      <div className="md:flex md:justify-between container p-7 bg-night text-white mb-5 w-full">
+      <div className="md:flex md:justify-between container p-7 bg-night text-white  w-full">
         <div className="w-3/4">
           <h1 className="text-5xl text-slime my-5 mb-10">Hi <span role="img" aria-label="hi emoji">👋</span> I am <span className="font-bold text-white">Rohan</span></h1>
           <h2 className="text-4xl text-slime italic mb-20">Student, Developer, Innovator</h2>
@@ -22,7 +23,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="md:flex md:justify-between container mt-5 conatiner p-7">
+      <div className="md:flex md:justify-between container container p-7">
         <div className="w-3/4" id="about-me">
           <h2 className="text-4xl text-slime font-bold">About me</h2>
           <p className="py-3">My name is Rohan Mehta and I am interested in innovating and making the world a better place. I am currently at Souderton Area High School and going to attend Georgia Tech to study computer science. On my personal time, I enjoy web and mobile app development, machine learning, and data science. I also enjoy watching movies, spending time with friends and family, and Taco Bell. My side interests include learning about space and medicine</p>
@@ -35,9 +36,9 @@ export default function Home() {
         <h2 className="p-7 text-4xl text-slime font-bold">Featured Projects</h2>
       </div>
       <div className="md:flex md:justify-around container p-5">
-        <Card />
-        <Card/>
-        <Card />
+        {featuredProjects.map((val, i) => 
+          <Card image={val.image} key={i} overview={val.overview} tags={val.tags} title={val.title}/>
+        )}
       </div>      
       
     </Layout>
