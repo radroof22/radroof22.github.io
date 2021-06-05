@@ -13,9 +13,9 @@ export default function Footer(){
             </div>
             <div className="text-center mt-5 text-xl">
                 <Link to="/" className="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap uppercase text-white hover:text-slime">Home</Link>
-                <Link to="/" className="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap uppercase text-white hover:text-slime">Machine Learning</Link>
-                <Link to="/" className="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap uppercase text-white hover:text-slime">Web Development</Link>
-                <Link to="/" className="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap uppercase text-white hover:text-slime">Resume</Link>
+                <Link to="/machine-learning" className="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap uppercase text-white hover:text-slime">Machine Learning</Link>
+                <Link to="/web-development" className="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap uppercase text-white hover:text-slime">Web Development</Link>
+                <Link to="/resume" className="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap uppercase text-white hover:text-slime">Resume</Link>
             </div>
             <div className="pt-8">
                 
