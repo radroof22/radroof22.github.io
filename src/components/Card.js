@@ -1,13 +1,12 @@
 
 import React from 'react'
-import {StaticImage} from "gatsby-plugin-image"
 
 export default function Card(props) {
     return (
 
     <a href={props.link} >
       <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slime hover:bg-mint">
-        <StaticImage className="w-full" src={props.image} alt={"Image of " + props.title} />
+        <img className="w-full" src={props.image} alt={"Image of " + props.title} />
         <div className="px-6 py-4">
           <div className="text-gray-900 font-bold text-xl mb-2">{props.title}</div>
           <p className="text-gray-700 text-base">

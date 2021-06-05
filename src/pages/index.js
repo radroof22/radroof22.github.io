@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className="text-5xl text-slime my-5 mb-10">Hi <span role="img" aria-label="hi emoji">👋</span> I am <span className="font-bold text-white">Rohan</span></h1>
           <h2 className="text-4xl text-slime italic mb-20">Student, Developer, Innovator</h2>
           <div className="md:flex my-5">
-            <Link to="#about-me"><button className="bg-slime hover:bg-mint text-gray-900 py-2 px-4 mr-5 rounded">About Me</button></Link>
+            <Link to="#about-me"><button className="bg-slime hover:bg-mint text-gray-900 py-2 px-4 mr-5 mb-2 rounded">About Me</button></Link>
             <Link to="#featured-projects"><button className="bg-night hover:bg-midnight text-slime py-2 px-4 mr-10 rounded border border-solid border-slime">Featured Projects</button></Link>
           </div>
         </div>
@@ -37,8 +37,8 @@ export default function Home() {
       </div>
       <div className="md:flex md:justify-around container p-5">
         {featuredProjects.map((val, i) => 
-          <div className="mb-2">
-          <Card image={val.image} key={i} overview={val.overview} tags={val.tags} title={val.title} link={val.link}/>
+          <div className="mb-2" key={i} >
+          <Card image={val.image} overview={val.overview} tags={val.tags} title={val.title} link={val.link}/>
           </div>
         )}
       </div>      
