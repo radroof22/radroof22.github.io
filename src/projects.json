@@ -1,6 +1,7 @@
 [
     {
         "title": "Mostlikely.to",
+        "featured": true,
         "overview": "This game was created to replicate the technology base of 'Jack in the Box Partypack' and 'Kahoot', livestreaming, interactive games amongs member groups. Instead of quiz questions or deeply interactive games like Kahoot and 'Jack', respectively, Mostlikely.to is a simple game of allowing users to create their own questions and vote on which members of their lobby are most likely to do it. The project uses Socket.io web sockets to have live communication between the users and the server hosting the game and lobby. The frontend is then rendered using Vue.js to handle state management on the frontend so no user data is confused or lost for the client.",
         "category": "web-development",
         "tags": [ 
@@ -24,6 +25,7 @@
     },
     {
         "title": "Self-Driving Car",
+        "featured": true,
         "overview": "This project was created using a Tensorflow LSTM which would recieve images from the client robot and make predicition for which turns it should make. The pictures on the client were taken using OpenCV2 and would be sent over as raw pixels in the form of a real-time web socket.The model learned to drive through a paper track on the ground and passed the statistical analysis proof.",
         "category": "machine-learning",
         "tag": [
@@ -48,6 +50,7 @@
     },
     {
         "title": "PtAi",
+        "featured": true,
         "overview": "The inspiration for this project came out of the recent rise in tele-medicine and doctors appointments hosted over the internet. As such, I wanted to see if there was a way to bring physical therapy to the online world to help people at home get the most out of their workouts. Current products already exist that allow users to track their joint movements as they do a series as exercises, though these solutions are often expensive. Instead, a machine learning technique would allow the users to just need their phone to complete their assigned workouts and gain assistance from the model.",
         "category": "machine-learning",
         "tag": [
