@@ -26,9 +26,13 @@ export default function Home() {
       <div className="md:flex md:justify-between container container p-7">
         <div className="w-3/4" id="about-me">
           <h2 className="text-4xl text-slime font-bold">About me</h2>
-          <p className="py-3">My name is Rohan Mehta and I am interested in innovating and making the world a better place. I am currently at Souderton Area High School and going to attend Georgia Tech to study computer science. On my personal time, I enjoy web and mobile app development, machine learning, and data science. I also enjoy watching movies, spending time with friends and family, and Taco Bell. My side interests include learning about space and medicine</p>
-          <p className="py-3">I am interested in Entrepeneurship and Innovation and helping others getting more and most with what they have.</p>
-          <p className="py-3">I am currently working on building a mobile app to help weight lifters optimize their talent and social connections.</p>
+          <p className="py-3">My name is Rohan Mehta and I am passionate about innovating and 
+          making the world a better place. I am going to attend Georgia Tech to study 
+          computer science in Fall of 2021. I build web and mobile 
+          apps, machine learning, and data science projects. My hobbies include watching movies, 
+          exercise, and Taco Bell. </p>
+          <p className="py-3">I am interested in entrepeneurship and innovation to help my community. 
+          Currrently, I am developing a mobile app to help weightlifters enhance their workout preformance and social connections.</p>
         </div>
         <div className="w-1/4"></div>
       </div>

@@ -5,7 +5,7 @@ export default function Card(props) {
     return (
 
     <a href={props.link} >
-      <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slime hover:bg-mint">
+      <div className="static max-w-sm h-full rounded overflow-hidden shadow-lg bg-slime hover:bg-mint">
         <img className="w-full" src={props.image} alt={"Image of " + props.title} />
         <div className="px-6 py-4">
           <div className="text-gray-900 font-bold text-xl mb-2">{props.title}</div>
