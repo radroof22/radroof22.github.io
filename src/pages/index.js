@@ -11,7 +11,7 @@ export default function Home() {
     <Layout>
       <div className="md:flex md:justify-between container p-7 bg-night text-white  w-full">
         <div className="w-3/4">
-          <h1 className="text-5xl text-slime my-5 mb-10">Hi <span role="img" aria-label="hi emoji">👋</span> I am <span className="font-bold text-white">Rohan</span></h1>
+          <h1 className="text-5xl text-slime my-5 mb-10">Hi, I am <span className="font-bold text-white">Rohan</span></h1>
           <h2 className="text-4xl text-slime italic mb-20">Student, Developer, Innovator</h2>
           <div className="md:flex my-5">
             <Link to="#about-me"><button className="bg-slime hover:bg-mint text-gray-900 py-2 px-4 mr-5 mb-2 rounded">About Me</button></Link>
