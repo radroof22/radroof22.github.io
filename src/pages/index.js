@@ -32,7 +32,7 @@ export default function Home() {
           apps, machine learning, and data science projects. My hobbies include watching movies, 
           exercise, and Taco Bell. </p>
           <p className="py-3">I am interested in entrepeneurship and innovation to help my community. 
-          Currrently, I am developing a mobile app to help weightlifters enhance their workout preformance and social connections.</p>
+          Currrently, I am developing a mobile app to help weightlifters enhance their workout performance and social connections.</p>
         </div>
         <div className="w-1/4"></div>
       </div>

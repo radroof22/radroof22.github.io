@@ -1,54 +1,11 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Personal Portfolio
+In order to challenge my design skills and improve on my React knowledge, I created my  personal portfolio website using Gatsby.js, a static site generator. To see the website, go to [Personal Portfolio](https://radroof22.github.io).
 
-## 🚀 Quick start
+## Design
+I started the journey of creating this website by experimenting with some color palletes and layouts using Figma. It allowed for a range of customizable design layouts where I could iterate quickly see what works with what. I settled on the purple and mint green color because I thought it worked well with each other. I then decided to seperate my portfolio by category, with web development and machine learning being seperate in order to logically seperate what people would be interested in.
 
-1.  **Create a Gatsby site.**
+## UI Development
+With the rise of TailwindCSS, I decided to switch off of Bootstrap and use it for this project. It has been a while since I have switched CSS/UI frameworks so I didn't know about the rise of tailwind but overall liked how it was very functional and customizable. I found TailwindCSS to be a nice abstraction of raw CSS in a much more readable way. Overall, the learning curve was still there because of developments like CSS Grid and Flexbox which I missed out with because of my forays into mobile development but I was still able to make stuff happen.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## React Development
+With a static website, there wasn't much frontend development aside from the design. With that said, I was still able to get a good handle of React functional components and how they interact together. In addition, I did make use of React props to pass data down to children components and React state and hooks to manage the state of the navbar and handle when its in mobile or desktop mode.
