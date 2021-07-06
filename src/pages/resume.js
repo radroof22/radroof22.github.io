@@ -14,7 +14,7 @@ export default function MachineLearning() {
         
             <div className="md:flex md:justify-around container p-2 mt-10">
                 
-                <iframe title="resume" width="960" height="1080" src="https://drive.google.com/file/d/1jBLXd24co0p__7WptnC9nvX5OGRobfCv/view?usp=sharing"></iframe>
+                <iframe title="resume" width="900" height="1080" src="https://drive.google.com/file/d/1jBLXd24co0p__7WptnC9nvX5OGRobfCv/preview"></iframe>
             </div>  
         </Layout>
     )
